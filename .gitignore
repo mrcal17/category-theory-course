@@ -1,0 +1,21 @@
+# validation / build scratch
+__pycache__/
+*.pyc
+.venv/
+*.log
+
+# marimo intermediates
+.marimo.toml
+__marimo__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NOTE: docs/ is intentionally tracked - GitHub Pages serves the built site from it.
+# textbooks/*.pdf are large and licensed; keep them local (README.md in textbooks/ is tracked).
+textbooks/*.pdf
+
+# The learner's own proofs stay out of git, so the repo remains solution-free.
+proofs/*
+!proofs/README.md
